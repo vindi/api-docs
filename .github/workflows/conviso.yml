@@ -2,7 +2,7 @@ name: Conviso
 on:
   pull_request:
   push:
-    branches: [ main, master ]
+    branches: [ gh-pages ]
 jobs:
   conviso:
     name: Conviso [SI]
