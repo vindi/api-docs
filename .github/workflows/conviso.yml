@@ -6,6 +6,6 @@ on:
 jobs:
   conviso:
     name: Conviso [SI]
-    uses: vindi/conviso-settings/.github/workflows/conviso-scan.yml@main
+    uses: vindi/conviso-settings/.github/workflows/api-docs.yml@main
     secrets:
       CONVISO_API_KEY: ${{ secrets.CONVISO_API_KEY }}
